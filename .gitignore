@@ -1,0 +1,72 @@
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Dataset files
+datasets/
+*.csv
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Training outputs
+outputs/
+runs/
+logs/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+@"
+
+# Large datasets and virtual environments
+datasets/
+venv/
+.venv/
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Credentials
+.env
+.kaggle/
+kaggle.json
+.streamlit/secrets.toml
+
+# Temporary files
+.ipynb_checkpoints/
+"@ | Add-Content .gitignore
